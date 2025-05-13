@@ -41,25 +41,25 @@ Rasa-chatbot-luminar/
 
 ## ⚙️ Setup Instructions
 
-1.Clone the repository:
+### 1. Clone the repository:
 ```
 git clone https://github.com/your-username/Rasa-chatbot-luminar.git
 cd Rasa-chatbot-luminar
 ```
-2.Create virtual environment and activate
+### 2. Create virtual environment and activate
 ```
 python3 -m venv venv
 source venv/bin/activate
 ```
-3.Train the model:
+### 3. Train the model:
 ```
 rasa train
 ```
-4.Run the Rasa server:
+### 4. Run the Rasa server:
 ```
 rasa run --enable-api
 ```
-5.Run the Flask frontend (in a new terminal):
+### 5. Run the Flask frontend (in a new terminal):
 ```
 python app.py
 ```
