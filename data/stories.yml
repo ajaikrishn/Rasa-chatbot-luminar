@@ -1,0 +1,32 @@
+version: "3.1"
+
+stories:
+  - story: greeting
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: course inquiry
+    steps:
+      - intent: ask_courses
+      - action: utter_courses
+
+  - story: admission inquiry
+    steps:
+      - intent: ask_admission
+      - action: utter_admission
+
+  - story: fee inquiry
+    steps:
+      - intent: ask_fees
+      - action: utter_fees
+
+  - story: location inquiry
+    steps:
+      - intent: ask_location
+      - action: utter_location
+
+  - story: farewell
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
