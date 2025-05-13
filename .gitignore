@@ -1,0 +1,25 @@
+# Ignore virtual environments
+.env/
+.envs/*
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# OS files
+.DS_Store
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Package metadata
+*.egg-info/
+
+# VS Code settings
+.vscode/
+
+*.gz
