@@ -1,0 +1,37 @@
+version: "3.1"
+
+rules:
+  - rule: Say goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - rule: Say hello
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: course info
+    steps:
+      - intent: ask_courses
+      - action: utter_courses
+
+  - rule: admission info
+    steps:
+      - intent: ask_admission
+      - action: utter_admission
+
+  - rule: fees info
+    steps:
+      - intent: ask_fees
+      - action: utter_fees
+
+  - rule: location info
+    steps:
+      - intent: ask_location
+      - action: utter_location
+
+  - rule: bot identity
+    steps:
+      - intent: bot_challenge
+      - action: utter_iamabot

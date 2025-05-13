@@ -1,0 +1,198 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hello
+      - hi
+      - hey
+      - good morning
+      - good evening
+      - hey there
+      - hi there
+      - howdy
+      - greetings
+      - what’s up
+      - hello there
+      - hi buddy
+      - yo
+      - hi bot
+      - good day
+      - hi friend
+      - hey buddy
+      - hey bot
+      - hi Luminar
+      - what's going on
+      - how are you
+      - are you there?
+      - anyone there?
+      - hi, I need help
+      - good afternoon
+      - good night
+      - hello Luminar
+      - nice to meet you
+      - I am back
+      - back again
+
+  - intent: goodbye
+    examples: |
+      - bye
+      - goodbye
+      - see you later
+      - have a nice day
+      - talk to you later
+      - see you
+      - take care
+      - bye bye
+      - catch you later
+      - I am leaving
+      - I have to go
+      - later
+      - see ya
+      - peace out
+      - I’m off
+      - exit
+      - I’ll talk to you later
+      - farewell
+      - time to go
+      - I’m done
+      - shutting down
+      - gotta go
+      - talk soon
+      - cya
+      - I am signing off
+      - end chat
+      - done here
+      - thanks and bye
+      - alright, bye
+      - quitting
+
+  - intent: ask_courses
+    examples: |
+      - what courses do you offer?
+      - tell me about your courses
+      - available courses
+      - course list
+      - what are the courses available at Luminar Technolab?
+      - can you list your courses?
+      - what programs do you have?
+      - I want to know about your courses
+      - list of courses
+      - course name
+      - courses
+      - what can I study there?
+      - training programs offered
+      - tell me your programs
+      - what are the training modules?
+      - what training do you provide?
+      - are there any IT courses?
+      - do you offer testing courses?
+      - I want to learn Python, do you offer it?
+      - which technical courses do you have?
+      - do you have data science?
+      - do you provide machine learning?
+      - AI courses?
+      - full stack web development?
+      - what are some of your hot courses?
+      - tell me about programming courses
+      - what are your top courses?
+      - Luminar training programs?
+      - do you offer part-time courses?
+      - do you have weekend programs?
+
+  - intent: ask_admission
+    examples: |
+      - how do I apply?
+      - admission process
+      - how to get admitted?
+      - enrollment procedure
+      - how can I enroll in a course?
+      - what is the process to join a course?
+      - how to get admission?
+      - admission requirements
+      - how do I join your classes?
+      - can I register online?
+      - where is the application form?
+      - how to start learning here?
+      - what steps to take for admission?
+      - process to enroll
+      - I want to register
+      - how to sign up?
+      - is admission open now?
+      - is enrollment ongoing?
+      - admission dates?
+      - how do I book a seat?
+      - can I apply from the website?
+      - is there an entrance test?
+      - are admissions first come first serve?
+      - how do I get started?
+      - tell me how to enroll
+      - how long is the process?
+      - what documents do I need for admission?
+      - fees before admission?
+      - do you offer counseling before admission?
+      - can I walk-in for admission?
+
+  - intent: ask_location
+    examples: |
+      - where are you located?
+      - what is your address?
+      - location of Luminar Technolab
+      - where can I find Luminar Technolab?
+      - where is Luminar Technolab situated?
+      - where is your office?
+      - tell me your location
+      - I want to know your address
+      - office location
+      - company address
+      - location
+      - your place?
+      - where in Kerala?
+      - do you have multiple branches?
+      - which city are you in?
+      - location details
+      - are you in Cochin?
+      - any branches in Calicut?
+      - Infopark location?
+      - are you near Infopark?
+      - where’s your training center?
+      - exact address?
+      - can I visit your place?
+      - where’s the center?
+      - physical location?
+      - where is the institute?
+      - center address?
+      - Kochi branch?
+      - Kakkanad or Calicut?
+
+  - intent: ask_fees
+    examples: |
+      - what is the fee structure?
+      - tell me about the fees
+      - how much are the fees?
+      - what are the charges for the courses?
+      - fee details
+      - what is the cost of the courses?
+      - how much do the courses cost?
+      - can you explain the fee structure?
+      - tuition fees
+      - what are the fees involved?
+      - is EMI available?
+      - do you provide installment options?
+      - is the course expensive?
+      - is there any discount?
+      - do you have scholarships?
+      - payment methods?
+      - is online payment accepted?
+      - fees for Python course?
+      - how much is the data science program?
+      - fees for full stack course?
+      - cost for automation testing?
+      - training charges?
+      - what's the pricing?
+      - total course fee?
+      - fees breakdown?
+      - do you offer demo classes before fees?
+      - registration fee included?
+      - is GST included in fee?
+      - course fee and duration?

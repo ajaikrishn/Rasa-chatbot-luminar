@@ -1,0 +1,70 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - bot_challenge
+  - ask_courses
+  - ask_admission
+  - ask_fees
+  - ask_location
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you today?"
+    - text: "Hi there! What can I assist you with?"
+    - text: "Hey! Need information about our courses?"
+    - text: "Greetings! I’m here to answer your queries."
+
+  utter_goodbye:
+    - text: "Goodbye! Have a great day!"
+    - text: "See you later. Take care!"
+    - text: "It was nice talking to you. Bye!"
+    - text: "Farewell! Come back soon."
+
+  utter_courses:
+    - text: |
+        We offer the following courses:
+        - Software Testing - Manual & Automation
+        - Python for Data Science, ML, AI, Power BI
+        - MEA(R)N Stack Web Development
+        - Django + React Full Stack Development
+        - ASP.NET MVC + Angular
+        - Flutter Mobile App Development
+        - Java Spring Full Stack Development
+        - AWS & DevOps
+        - UI/UX Design and Development
+        - Business Intelligence with Tableau and Power BI
+
+  utter_admission:
+    - text: |
+        To apply, you can:
+        - Visit our website and fill the application form
+        - Walk into our campus for in-person registration
+        - Call our support number for guidance
+        - No entrance test is needed
+        - Admission is open all year for most courses
+
+  utter_fees:
+    - text: |
+        Fee structure depends on the course:
+        - Python DS/ML/AI: ₹45,000
+        - Testing Full Course: ₹35,000
+        - ME(R)AN Stack: ₹50,000
+        - Java Full Stack: ₹48,000
+        - EMI and Installments available
+        - Contact us for personalized fee breakdown
+
+  utter_location:
+    - text: |
+        Luminar Technolab is located at:
+        - Kakkanad, Kochi (Near Infopark)
+        - Mavoor Road, Calicut
+        We are easily accessible and have parking available.
+
+  utter_iamabot:
+    - text: "I am a bot developed to help with your queries about Luminar Technolab."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
